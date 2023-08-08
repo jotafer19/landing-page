@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #1f2937;
+    margin: 0;
 }
 
 .hero-container {
@@ -35,7 +35,7 @@ body {
 button, 
 a {
     font-size: 18px;
-    color: #e5e7eb
+    color: #e5e7eb;
 }
 
 ul {
@@ -85,7 +85,64 @@ button {
 }
 
 .info-container {
-    background-color: white;
-    display: flex;
+    flex: 1;
+}
 
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin: 50px;
+}
+
+.images-and-subtext-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 64px;
+    padding-bottom: 100px;
+}
+
+.image-and-subtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 6px;
+}
+
+.image-border {
+    padding: 75px;
+    border:4px solid #3882f6;
+    border-radius: 10px;;
+}
+
+.subtext {
+    text-align: center;
+    color: #1f2937;
+}
+
+.quote-container {
+    background-color: #e5e7eb;
+    flex: 1;
+    padding: 72px 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.quote {
+    font-weight: 200;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic; 
+}
+
+.author {
+    align-self: end;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #1f2937;
 }
